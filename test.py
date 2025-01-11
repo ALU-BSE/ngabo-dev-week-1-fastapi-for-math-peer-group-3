@@ -14,6 +14,9 @@ def f(x):
 #Implement the formula MX + B
 #Have two function one using numpy and another not using numpy
 #Return 
+with open("example.txt", "r") as file:
+    line_count = sum(1 for line in file)
+    print(f"Number of lines: {line_count}")
 
 #initialize x as a 5 * 5 matrix
 
